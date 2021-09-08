@@ -12,7 +12,7 @@ body {
 .debug > .container {
     background-color: aqua;
     width: 1100px ;
-    height: 1004px;
+    height: 1193px;
 }
 
 .clearfix::after {
@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 1100px;
-    height: 1004px;
+    height: 1193px;
 }
 
 .debug .card_left{
@@ -67,5 +67,57 @@ body {
    width: 358px;
    height: 521px;
    float: left;
+} 
+
+.debug .caption_left{
+   width: 358px;
+   height: 55px;
+   background-color: rgb(255, 153, 0);
+   float: left;
+   margin-top: 5px;
+} 
+
+.caption_left{
+   width: 358px;
+   height: 55px;
+   background-color: rgb(255, 153, 0);
+   float: left;
+   margin-top: 5px;
+} 
+
+.debug .caption_center{
+   width: 362px;
+   height: 55px;
+   background-color: rgb(255, 153, 0);
+   float: left;
+   margin-top: 5px;
+   margin-left: 1%;
+   margin-right: 1%;
+} 
+
+.caption_center{
+   width: 358px;
+   height: 55px;
+   background-color: rgb(255, 153, 0);
+   float: left;
+   margin-top: 5px;
+   margin-left: 1%;
+   margin-right: 1%;
+} 
+
+.debug .caption_right{
+   width: 358px;
+   height: 55px;
+   background-color: rgb(255, 153, 0);
+   float: left;
+   margin-top: 5px;
+} 
+
+.caption_right{
+   width: 358px;
+   height: 55px;
+   background-color: rgb(255, 153, 0);
+   float: left;
+   margin-top: 5px;
 } 
 
