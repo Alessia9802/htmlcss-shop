@@ -26,112 +26,22 @@ body {
     height: 1193px;
 }
 
-.debug .card_left{
-   width: 358px;
-   height: 521px;
-   background-color: red;
+.card {
+   width: 100%;
    float: left;
+   display: inline-block;
 } 
 
-.card_left{
-   width: 358px;
-   height: 521px;
-   float: left;
+.behind {
+   display: none;
 } 
-
-.debug .card_center{
-   width: 362px;
-   height: 521px;
-   background-color: red;
-   float: left;
-   margin-left: 1%;
-   margin-right: 1%;
-} 
-
-.card_center{
-   width: 362px;
-   height: 521px;
-   float: left;
-   margin-left: 1%;
-   margin-right: 1%;
-} 
-
-.debug .card_right{
-   width: 358px;
-   height: 521px;
-   background-color: red;
-   float: left;
-} 
-
-.debug .card_right{
-   width: 358px;
-   height: 521px;
-   float: left;
-} 
-
-.debug .caption_left{
-   width: 358px;
-   height: 55px;
-   background-color: rgb(255, 153, 0);
-   float: left;
-   margin-top: 5px;
-} 
-
-.caption_left{
-   width: 358px;
-   height: 55px;
-   background-color: rgb(255, 153, 0);
-   float: left;
-   margin-top: 5px;
-} 
-
-.debug .caption_center{
-   width: 362px;
-   height: 55px;
-   background-color: rgb(255, 153, 0);
-   float: left;
-   margin-top: 5px;
-   margin-left: 1%;
-   margin-right: 1%;
-} 
-
-.caption_center{
-   width: 358px;
-   height: 55px;
-   background-color: rgb(255, 153, 0);
-   float: left;
-   margin-top: 5px;
-   margin-left: 1%;
-   margin-right: 1%;
-} 
-
-.debug .caption_right{
-   width: 358px;
-   height: 55px;
-   background-color: rgb(255, 153, 0);
-   float: left;
-   margin-top: 5px;
-} 
-
-.caption_right{
-   width: 358px;
-   height: 55px;
-   background-color: rgb(255, 153, 0);
-   float: left;
-   margin-top: 5px;
-} 
-
-/* ./Struttra Layout */
-
-.uno {
-   width: 358px;
-   height: 521px;
-   transition: all 1s ease-in-out;
+          
+.card:hover .behind {
+   display:block;
 }
 
-.uno:hover {
-   background-image: url(../img/1b.webp);
-   width: 358px;
-   height: 521px;
-   background-size: cover;
+.card:hover .uno {
+   display:none;
 }
+
+
