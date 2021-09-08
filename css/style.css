@@ -21,7 +21,7 @@ body {
 }
 
 .first {
-  background-image: url(./img/1.webp);
+  background-image: url(../img/1.webp);
   height: 521px;
   background-size: cover;
   position: relative;
@@ -60,11 +60,11 @@ body {
 }
 
 .first:hover {
-  background-image: url(./img/1b.webp);
+  background-image: url(../img/1b.webp);
 }
 
 .second {
-  background-image: url(./img/2.webp);
+  background-image: url(../img/2.webp);
   height: 521px;
   background-size: cover;
   position: relative;
@@ -92,11 +92,11 @@ body {
 }
 
 .second:hover {
-  background-image: url(./img/2b.webp);
+  background-image: url(../img/2b.webp);
 }
 
 .third {
-  background-image: url(./img/3.webp);
+  background-image: url(../img/3.webp);
   height: 521px;
   background-size: cover;
   position: relative;
@@ -124,11 +124,11 @@ body {
 }
 
 .third:hover {
-  background-image: url(./img/3b.webp);
+  background-image: url(../img/3b.webp);
 }
 
 .fourth {
-  background-image: url(./img/4.webp);
+  background-image: url(../img/4.webp);
   height: 521px;
   background-size: cover;
   position: relative;
@@ -166,11 +166,11 @@ body {
 }
 
 .fourth:hover {
-  background-image: url(./img/4b.webp);
+  background-image: url(../img/4b.webp);
 }
 
 .fifth {
-  background-image: url(./img/5.webp);
+  background-image: url(../img/5.webp);
   height: 521px;
   background-size: cover;
   position: relative;
@@ -188,11 +188,11 @@ body {
 }
 
 .fifth:hover {
-  background-image: url(./img/5b.webp);
+  background-image: url(../img/5b.webp);
 }
 
 .sixth {
-  background-image: url(./img/6.webp);
+  background-image: url(../img/6.webp);
   height: 521px;
   background-size: cover;
   position: relative;
@@ -220,7 +220,7 @@ body {
 }
 
 .sixth:hover {
-  background-image: url(./img/6b.webp);
+  background-image: url(../img/6b.webp);
 }
 
 .center {
