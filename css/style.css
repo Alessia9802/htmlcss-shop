@@ -121,3 +121,18 @@ body {
    margin-top: 5px;
 } 
 
+/* ./Struttra Layout */
+
+.uno {
+   width: 358px;
+   height: 521px;
+   transition: all 1s ease-in-out;
+}
+
+.uno:hover {
+   background-image: url(../img/1b.webp);
+   transition: all 1s ease-in-out;
+   width: 358px;
+   height: 521px;
+   background-size: cover;
+}
