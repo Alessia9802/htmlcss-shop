@@ -5,43 +5,52 @@
 }
 
 body {
-    width: 1100px;
-    margin: auto;
+  width: 1100px;
+  margin: auto;
 }
 
 .debug > .container {
-    background-color: aqua;
-    width: 1100px ;
-    height: 1193px;
+  background-color: aqua;
+  width: 1100px;
+  height: 1193px;
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .container {
-    width: 1100px;
-    height: 1193px;
+  width: 1100px;
+  height: 1193px;
 }
 
 .card {
-   width: 100%;
-   float: left;
-   display: inline-block;
-} 
+  float: left;
+}
+
+.uno {
+  width: 360px;
+  height: 521px;
+  float: left;
+  margin-left: 5px;
+}
 
 .behind {
-   display: none;
-} 
-          
+  display: none;
+  width: 360px;
+  height: 521px;
+}
+
 .card:hover .behind {
-   display:block;
+  display: block;
+  width: 360px;
+  height: 521px;
 }
 
 .card:hover .uno {
-   display:none;
+  display: none;
+  width: 360px;
+  height: 521px;
 }
-
-
